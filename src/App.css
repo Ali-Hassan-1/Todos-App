@@ -1,0 +1,100 @@
+body {
+  height: 100%;
+  background: linear-gradient(lightblue, lightgray, rgb(223, 205, 208));
+}
+
+.App {
+  text-align: center;
+} 
+
+/* component (todosTable) */
+
+.todosRender {
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  min-width: 200px;
+  max-width: 250px;
+  display: inline-block;
+  margin: 20px 50px;
+  padding: 20px;
+  box-shadow: 0px 1px 5px 1px gray;
+}
+
+
+.todosRender button {
+  margin: 1rem 20px;
+  border-radius: 12px;
+  outline: none;
+  padding: 8px;
+  background: linear-gradient(rgb(182, 227, 241), rgb(218, 209, 209), rgb(223, 205, 208));
+
+}
+
+.completeTodo {
+  text-decoration: line-through;
+  color: red;
+  opacity: 0.5;
+}
+
+.renderTable {
+  padding-top: 52px;
+}
+
+
+
+/* component (inputTodos) */
+
+textarea {
+  margin-top: 10px;
+  outline: none;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  overflow-y: hidden;
+  font-size: 20px;
+  min-height: 8vh;
+  background: rgb(255, 245, 245);
+}
+
+.input_btn {
+  position: relative;
+  padding: .5rem;
+  margin-left: -60px;
+  bottom: 15px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  width: 50px;
+  background: linear-gradient(rgb(182, 227, 241), rgb(218, 209, 209), rgb(223, 205, 208));
+}
+
+/* component (selectTodo) */
+
+.filter_todos {
+  margin-top: 10px;
+}
+
+.filter_todos select {
+  padding: .5rem;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background: rgb(255, 245, 245);
+
+}
+
+.filter_todos option {
+  outline: none;
+  border-radius: 10px;
+}
+
+/* component (todos) */
+
+.appName {
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.empty_todo {
+  padding: 13rem;
+}
